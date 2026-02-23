@@ -7,7 +7,7 @@ package com.mycompany.ejercicios_libro_logica_de_programacion;
 import java.util.Scanner;
 
 /*
- Desarrollar un programa en Java que permita capturar un conjunto de 5 edades 
+ Desarrollar un programa en Java que permita capturar un conjunto de 30 edades 
  utilizando un arreglo (array) de enteros. El sistema debe recorrer el arreglo 
  mediante un bucle para identificar cuál es la edad mayor de todas las ingresadas 
  apoyándose en el método Math.max(). Finalmente, el programa debe permitir 
@@ -36,7 +36,7 @@ public class Problemas_Diagramación_logica_ej23 {
                 if(opcion!=0){
                     do{
                         System.out.println("Ingrese las edades porfavor: ");
-                        int[] may = new int[5];
+                        int[] may = new int[30];
                         int Elmayor = 0;
                     
                             for (int i=0; i<5;i++){
